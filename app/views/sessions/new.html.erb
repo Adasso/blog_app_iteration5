@@ -1,0 +1,6 @@
+<!--<h1>Sessions#new</h1>
+<p>Find me in app/views/sessions/new.html.erb</p>-->
+<%= form_tag "/sessions" do %>
+<%= text_field_tag :current_user %>
+<%= submit_tag "login" %>
+<% end %>
