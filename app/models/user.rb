@@ -6,5 +6,5 @@ class User < ApplicationRecord
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :email, presence: true
-  validates_length_of :password, :in =>8..20
+  #validates_length_of :password, :in =>8..20
 end
